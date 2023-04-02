@@ -1,0 +1,12 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: USERS-SERVICE
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  profiles:
+    active: eclient
