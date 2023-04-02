@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b13358-6bef-4fd5-817f-7231cd7b7d4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="a7b13358-6bef-4fd5-817f-7231cd7b7d4c" name="Changes" comment="+ service-registry, config-server, cloud-gateway">
+      <change afterPath="$PROJECT_DIR$/common/entities/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/src/main/java/ru/fllcker/entities/EntitiesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/src/main/java/ru/fllcker/entities/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/entities/src/test/java/ru/fllcker/entities/EntitiesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +37,19 @@
     <projectState path="$PROJECT_DIR$/common/config-server">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/common/entities">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/common/service-registry">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,6 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EntitiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="entities.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.fllcker.entities.EntitiesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="service-registry.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.fllcker.serviceregistry.ServiceRegistryApplication" />
@@ -93,8 +114,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680441466433</updated>
-      <workItem from="1680441467793" duration="437000" />
+      <workItem from="1680441467793" duration="1362000" />
     </task>
+    <task id="LOCAL-00001" summary="+ service-registry, config-server, cloud-gateway">
+      <created>1680441975021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680441975021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +134,9 @@
       <path value="$PROJECT_DIR$/common/service-registry" />
       <path value="$PROJECT_DIR$/common/cloud-gateway" />
       <path value="$PROJECT_DIR$/common/config-server" />
+      <path value="$PROJECT_DIR$/common/entities" />
     </ignored-roots>
+    <MESSAGE value="+ service-registry, config-server, cloud-gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ service-registry, config-server, cloud-gateway" />
   </component>
 </project>
