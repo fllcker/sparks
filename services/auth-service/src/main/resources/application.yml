@@ -1,0 +1,15 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: AUTH-SERVICE
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  profiles:
+    active: eclient, db
+
+  datasource:
+    url: jdbc:postgresql://212.118.40.85:5432/sparks_auth
