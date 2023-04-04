@@ -9,7 +9,7 @@ spring:
     import: optional:configserver:http://localhost:8888
 
   profiles:
-    active: eclient, db
+    active: eclient, db, secrets
 
   datasource:
     url: jdbc:postgresql://212.118.40.85:5432/sparks_auth
