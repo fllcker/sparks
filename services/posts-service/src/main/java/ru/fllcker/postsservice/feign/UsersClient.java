@@ -7,9 +7,9 @@ import ru.fllcker.postsservice.vo.User;
 
 @FeignClient("USERS-SERVICE")
 public interface UsersClient {
-    @GetMapping("id/{id}")
+    @GetMapping("users/id/{id}")
     User findById(@PathVariable Long id);
 
-    @GetMapping("email/{email}")
+    @GetMapping("users/email/{email}")
     User findByEmail(@PathVariable String email);
 }
